@@ -1,0 +1,31 @@
+<Solution>
+  <Folder Name="/Data/">
+    <Project Path="Data/MatchScore.Data.Common/MatchScore.Data.Common.csproj" />
+    <Project Path="Data/MatchScore.Data.Models/MatchScore.Data.Models.csproj" />
+    <Project Path="Data/MatchScore.Data/MatchScore.Data.csproj" />
+  </Folder>
+  <Folder Name="/Services/">
+    <Project Path="Services/MatchScore.Services.Data/MatchScore.Services.Data.csproj" />
+    <Project Path="Services/MatchScore.Services.Mapping/MatchScore.Services.Mapping.csproj" />
+    <Project Path="Services/MatchScore.Services.Messaging/MatchScore.Services.Messaging.csproj" />
+    <Project Path="Services/MatchScore.Services/MatchScore.Services.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".globalconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+    <File Path="stylecop.json" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/MatchScore.Services.Data.Tests/MatchScore.Services.Data.Tests.csproj" />
+    <Project Path="Tests/MatchScore.Web.Tests/MatchScore.Web.Tests.csproj" />
+    <Project Path="Tests/Sandbox/Sandbox.csproj" />
+  </Folder>
+  <Folder Name="/Web/">
+    <Project Path="Web/MatchScore.Web.Infrastructure/MatchScore.Web.Infrastructure.csproj" />
+    <Project Path="Web/MatchScore.Web.ViewModels/MatchScore.Web.ViewModels.csproj" />
+    <Project Path="Web/MatchScore.Web/MatchScore.Web.csproj" />
+  </Folder>
+  <Project Path="MatchScore.Common/MatchScore.Common.csproj" />
+</Solution>
